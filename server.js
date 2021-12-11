@@ -15,7 +15,7 @@ const body = require("body-parser").urlencoded({ extended: true });
 app.use(body);
 
 //
-
+require("./cons");
 //
 
 //beginSessions
